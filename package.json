@@ -1,19 +1,16 @@
 {
   "name": "wishare-postprocessor-cmd-wrapper",
-  "version": "0.0.1",
-  "description": "Automaticly wraaper define() funcion for cmd-modules-http://www.winxuan.com",
+  "version": "0.0.2",
+  "description": "Automaticly wrapper define() funcion for cmd-modules-http://www.winxuan.com",
   "main": "index.js",
   "repository": "werts/wishare-postprocessor-cmd-wrapper",
-  "bin": {
-    "wshare": "wishare.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "werts",
   "license": "ISC",
-  "keywords": {
+  "keywords": [
     "fis3",
     "wishare"
-  }
+  ]
 }
