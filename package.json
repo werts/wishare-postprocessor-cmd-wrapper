@@ -1,6 +1,6 @@
 {
   "name": "wishare-postprocessor-cmd-wrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Automaticly wrapper define() funcion for cmd-modules-http://www.winxuan.com",
   "main": "index.js",
   "repository": "werts/wishare-postprocessor-cmd-wrapper",
