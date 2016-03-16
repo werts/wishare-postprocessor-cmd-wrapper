@@ -9,8 +9,9 @@
 module.exports = function(content, file, conf){
     if (file.isMod || conf.wrapAll){
         if (!/^\s*define\s*\(/.test(content)){
-            content = 'define(function(require, exports, module){' + content + '})';
+            content = 'define(function(require, exports, module){ ' + content +
+                    ' \r\n});';
         }
         return content;
     }
-}
+};
